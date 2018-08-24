@@ -10,9 +10,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+
+import restcrudexample.dao.EmployeeDAO;
+import restcrudexample.model.Employee;
  
-import org.o7planning.restfulcrud.dao.EmployeeDAO;
-import org.o7planning.restfulcrud.model.Employee;
  
 @Path("/employees")
 public class EmployeeService {
